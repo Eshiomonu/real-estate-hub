@@ -24,6 +24,35 @@ const Navbar = () => {
           {" "}
           Sign Up
         </button>
+        <img
+          src={assets.menu_icon}
+          className="md:hidden w-7"
+          alt=""
+          srcset=""
+        />
+      </div>
+      {/* Mobile menu */}
+      <div className="md:hidden fixed w-full right-0 top-0 bottom-0 overflow-hidden bg-white transition-all">
+        <div className="flex justify-end p-6 cursor-pointer">
+          <img src={assets.cross_icon} className="w-6" alt="" srcset="" />
+        </div>
+        <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
+          <a href="#Header" className="px-4 py-2 rounded-full inline-block">
+            Home
+          </a>
+          <a href="#About" className="px-4 py-2 rounded-full inline-block">
+            About
+          </a>
+          <a href="#Projects" className="px-4 py-2 rounded-full inline-block">
+            Projects
+          </a>
+          <a
+            href="#Testimonial"
+            className="px-4 py-2 rounded-full inline-block"
+          >
+            Testimonials
+          </a>
+        </ul>
       </div>
     </div>
   );
