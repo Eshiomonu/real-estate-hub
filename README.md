@@ -49,7 +49,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at **http://localhost:5173** (if using Vite).
+The application will be available at **http://localhost:5173**
 
 ---
 
@@ -79,7 +79,5 @@ This project is licensed under the **MIT License** – free for personal and com
 
 🔹 **Live Demo:** [Deploy Link]
 🔹 **GitHub Repository:** https://github.com/eshiomonu/real-estate-hub.git
-
-Would you like me to include additional details, such as backend integration or database setup? 🚀
 
 > > > > > > > 5fca8c219eb1d80f08eb5455825d0c129676b29b
